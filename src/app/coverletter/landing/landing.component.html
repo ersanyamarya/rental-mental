@@ -1,0 +1,61 @@
+<div class="container">
+  <h2>Fill up the data</h2>
+  <div class="landlord-section">
+    <h3>Landlord</h3>
+    <br />
+    <label for="daytime">Daytime</label>
+    <input type="text" name="daytime" id="daytime" [(ngModel)]="daytime" />
+    <br />
+
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" [(ngModel)]="name" />
+    <br />
+
+    <label for="rooms">No. of rooms</label>
+    <input type="number" name="rooms" id="rooms" [(ngModel)]="rooms" />
+    <br />
+
+    <label for="location">Location</label>
+    <input type="text" name="location" id="location" [(ngModel)]="location" />
+    <br />
+  </div>
+
+  <div class="content">
+    <p>Good {{ daytime }} {{ name }},</p>
+    <br />
+    <p>
+      My name is Sanyam Arya and I am very interested in the advertised
+      {{ rooms }}-room apartment on {{ location }}. I am 27 years old Software
+      Engineer. I began to work with Trivago from 1st of February 2020, and my
+      workplace is in Niederkassel, the neighbourhood of the apartment is,
+      therefore, comprehensive for me. I would be happy to provide you with my
+      new employment contract. However, it is my first job here so I'll not be
+      able to produce SCHUFA information. If you need any more documents, please
+      let me know.
+    </p>
+    <br />
+
+    <p>
+      I am dependable and trustworthy. I will take good care of the apartment.
+      In my last home in India, I had a wooden floor, as can be seen in the
+      pictures. So I already have experience with special care. If you have any
+      questions about me, you can best reach me on +491703380307 between 5 pm
+      and 9 pm or by e-mail (sanyam.arya@trivago.com). I am currently in
+      Hansallee and can directly come to visit every weekday from 6 p.m and
+      anytime on weekends.
+    </p>
+    <br />
+    <p>
+      You can find more information about me on my LinkedIn profile:
+      www.linkedin.com/in/sanyam-arya. I wish you a nice day and will be very
+      happy if I get the chance to visit it.
+    </p>
+    <br />
+    <p>
+      Thank you for your time, {{ name }}. <br />
+      Best wishes, <br />
+      Sanyam Arya
+    </p>
+    <br />
+  </div>
+</div>
